@@ -1,0 +1,66 @@
+/*
+    =========================================================
+    * Shaadi App UI Kit React - v1.0.0
+    =========================================================
+
+    App-wide control variables, modifying with caution.
+    Created by - Pradeep Vig
+*/
+
+/* Color Palette */
+$color-primary: #36A360;
+$color-primary--hover: rgba(0, 198, 99, 0.75);
+$color-primary--light: rgba(0, 198, 99, 0.5);
+$color-primary--lighter: rgba(0, 198, 99, 0.25);
+$color-primary--lightest: rgba(0, 198, 99, 0.15);
+$color-secondary: #1C1B20;
+$color-secondary--hover: rgba(28, 27, 32, 0.75);
+$color-gray: #E9EAEC;
+$color-gray--hover: rgba(233, 234, 236, 0.75);
+$color-medium-gray: #979CA5;
+$color-medium--hover: rgba(151, 156, 165, 0.75);
+$color-dark-gray: #777777;
+$color-dark-gray--hover: rgba(119, 119, 119, 0.75);
+$color-border-1: #333333;
+$color-border-2: #eff2f7;
+$color-border-3: rgba(112, 112, 112, 0.3);
+$color-white: #ffffff;
+$color-success: #0baf60;
+$color-success--hover: rgba(11, 175, 96, 0.75);
+$color-error: #eb5945;
+$color-error--hover: rgba(235, 89, 69, 0.75);
+$color-warning: #ea882d;
+$color-warning--hover: rgba(234, 136, 45, 0.75);
+$color-info: #09a5af;
+$color-info--lightest: rgba(9, 165, 175, 0.15);
+$color-info--hover: rgba(9, 165, 175, 0.75);
+$color-box--shadow: rgba(18,38,63,0.3);
+$color-background: #fafafa;
+$color-background-2: #eff2f7;
+$color-background-3: rgba(239, 242, 247, 0.3);
+$color-background-success: rgb(223, 240, 230);
+$color-background-error: rgb(250, 224, 224);
+$color-background-info: rgb(214, 229, 237);
+$color-background-warning: rgb(252, 236, 221);
+
+/* Border Radius */
+$br-0: 0;
+$br-1: 2px;
+$br-2: 4px;
+$br-3: 8px;
+$br-4: 16px;
+$br-5: 20px;
+$br-6: 22px;
+$br-circle: 999px;
+
+/* Box Shadows */
+$bs-1: 0 2px 4px 0 $color-box--shadow;
+$bs-2: 0 4px 8px 0 $color-box--shadow;
+$bs-3: 0 8px 16px 0 $color-box--shadow;
+$bs-4: 0 10px 20px 0 $color-box--shadow;
+$bs-button: 0 2px 0 rgba(0,0,0,.045);
+
+/* Transitions */
+$form-input-border-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+$transition-1: 300ms ease-in-out;
+$transition-2: 600ms ease-in-out;

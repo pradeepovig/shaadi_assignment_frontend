@@ -1,0 +1,104 @@
+@import "../../partials/classes";
+@import "../../partials/variables";
+
+.app-toast-wrapper {
+	position: fixed;
+	z-index: 1051;
+
+	// Positions
+
+	&.pos-top-left {
+		top: 1rem;
+		left: 1rem;
+	}
+
+	&.pos-top-center {
+		top: 1rem;
+		transform: translate(calc(50vw - 50%));
+	}
+
+	&.pos-top-right {
+		top: 1rem;
+		right: 1rem;
+	}
+
+	&.pos-bottom-left {
+		bottom: 1rem;
+		left: 1rem;
+	}
+
+	&.pos-bottom-right {
+		bottom: 1rem;
+		right: 1rem;
+	}
+
+	&.pos-bottom-center {
+		bottom: 1rem;
+		transform: translate(calc(50vw - 50%));
+	}
+}
+
+.app-toast {
+	border: 1px solid black;
+	border-radius: $br-3;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+
+	&__body {
+		margin: 0;
+	}
+
+	.icon {
+		margin: 0;
+		cursor: pointer;
+	}
+
+	// Types
+
+	&.type-primary {
+		border: 1px solid $color-primary;
+
+		.app-toast__body {
+			color: $color-primary;
+		}
+	}
+
+	&.type-success {
+		border: 1px solid $color-success;
+		background-color: $color-background-success;
+
+		.app-toast__body {
+			color: $color-success;
+		}
+	}
+
+	&.type-error {
+		border: 1px solid $color-error;
+		background-color: $color-background-error;
+
+		.app-toast__body {
+			color: $color-error;
+		}
+	}
+
+	&.type-warning {
+		border: 1px solid $color-warning;
+		background-color: $color-background-warning;
+
+		.app-toast__body {
+			color: $color-warning;
+		}
+	}
+
+	&.type-info {
+		border: 1px solid $color-info;
+		background-color: $color-background-info;
+
+		.app-toast__body {
+			color: $color-info;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.navbar {
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+  &__app-logo {
+    width: 2rem;
+  }
+}

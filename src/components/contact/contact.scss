@@ -1,0 +1,29 @@
+@import "../../partials/variables";
+
+.contact {
+  min-width: 25%;
+  max-width: 25%;
+  margin-bottom: 1rem;
+
+  &__card {
+    padding: 1rem;
+  }
+
+  &__subwrapper {
+
+  }
+
+  &__name {
+
+  }
+
+  &__photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+
+  &__number {
+
+  }
+}
