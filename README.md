@@ -1,1 +1,2 @@
-# shaadi_assignment_frontend
+# Shaadi.com Interview Assignment React App
+### Built by Pradeep Vig
